@@ -4,6 +4,12 @@
 
 This project aims to predict housing prices using various machine learning algorithms. The dataset used is the Boston Housing Dataset, which contains information about houses in Boston, including features such as crime rate, number of rooms, age of the house, and more. The goal is to compare the performance of different regression models and determine the best model for predicting house prices.
 
+## Data Analysis
+
+Data Cleaning: Handling missing values and outliers.
+Data Transformation: Applying Min-Max normalization to scale the features to a range of 0 to 1. Standardizing the features to have a mean of 0 and a standard deviation of 1.
+Train-Test Split: Splitting the data into training and testing sets to evaluate the performance of the models.
+
 ## Features
 
 - **Data Preprocessing**: Data cleaning, feature scaling, and splitting the data into training and testing sets.
