@@ -6,9 +6,9 @@ This project aims to predict housing prices using various machine learning algor
 
 ## Data Analysis
 
-Data Cleaning: Handling missing values and outliers.
-Data Transformation: Applying Min-Max normalization to scale the features to a range of 0 to 1. Standardizing the features to have a mean of 0 and a standard deviation of 1.
-Train-Test Split: Splitting the data into training and testing sets to evaluate the performance of the models.
+- Data Cleaning: Handling missing values and outliers.
+- Data Transformation: Applying Min-Max normalization to scale the features to a range of 0 to 1. Standardizing the features to have a mean of 0 and a standard deviation of 1.
+- Train-Test Split: Splitting the data into training and testing sets to evaluate the performance of the models.
 
 ## Features
 
