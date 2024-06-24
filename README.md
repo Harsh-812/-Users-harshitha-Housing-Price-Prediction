@@ -1,19 +1,39 @@
 # Housing Price Prediction Analysis
 
-### Project Overview
-This project focuses on recommending a predictive model for housing prices based on various features of the houses. The recommemded model aims to forecast the selling price of homes in a given area, using a dataset that includes details such as square footage, number of bedrooms, number of bathrooms, location, and more. The project encompasses data preprocessing, exploratory data analysis (EDA), feature engineering, model selection, training, and evaluation to ensure the highest possible accuracy and efficiency.
-<hr>
+## Project Overview
 
-### Tools and Technologies
-* Python: Primary programming language used for data analysis.
-* Jupyter Notebooks: For interactive data exploration and visualization.
-* Pandas: Python library for data manipulation and analysis.
-* Matplotlib and Seaborn: Python libraries for data visualization.
-* Numpy: Python library used for Mathematical operations.
-* Regression: Linear Regression, Decision Tree Regressor, Random Forest Regressor, Extra Trees Regressor, XGBoost 
-<hr>
+This project aims to predict housing prices using various machine learning algorithms. The dataset used is the Boston Housing Dataset, which contains information about houses in Boston, including features such as crime rate, number of rooms, age of the house, and more. The goal is to compare the performance of different regression models and determine the best model for predicting house prices.
 
 ### About the Dataset
 The boston house dataset is downloaded from Kaggle. It consists of 14 columns and 506 fields
-<hr>
 
+## Content/Features
+
+- **Data Preprocessing**: Data cleaning, feature scaling, and splitting the data into training and testing sets.
+- **Model Training and Evaluation**:
+  - Linear Regression
+  - Decision Tree
+  - Random Forest
+  - XGBoost
+  - Extra Trees
+- **Performance Metrics**: 
+  - Cross-Validation Score (CV Score)
+  - Mean Squared Error (MSE)
+  - R-squared (R²)
+  - Accuracy (in percentage)
+- **Feature Importance**: Visualization of feature importance for tree-based models and coefficients for Linear Regression.
+
+## Results
+
+### Model Performance
+
+| Model              | CV Score | MSE   | R²   | Accuracy (%) |
+|--------------------|----------|-------|------|--------------|
+| Linear Regression  | 24.33    | 26.47 | 0.64 | 63.90        |
+| Decision Tree      | 32.00    | 10.67 | 0.85 | 85.46        |
+| Random Forest      | 14.94    | 7.69  | 0.90 | 89.51        |
+| XGBoost            | 13.98    | 7.15  | 0.90 | 90.25        |
+| Extra Trees        | 11.95    | 9.86  | 0.87 | 86.56        |
+
+### Best Model
+Based on the evaluation metrics, **XGBoost** is the best model for predicting house prices, with the lowest Mean Squared Error (7.15), the highest R-squared (0.90), and the highest accuracy (90.25%).
